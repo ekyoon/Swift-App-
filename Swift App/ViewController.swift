@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: AnyObject) {
         
-        coolLabel.text = "Answer : \(Double(text1.text!)! + Double(text2.text!)!)"
+        coolLabel.text = "Answer is ...\((Double(text1.text!)! * Double(text2.text!)!))"
         
     }
     
